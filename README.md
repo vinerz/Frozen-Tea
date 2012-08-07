@@ -1,4 +1,5 @@
 Frozen-Tea
 ==========
 
-Little basic framework for PHP
+Framework básico para PHP
+Mais informações em http://www.xenon-corporation.com/projeto-frozen-tea
