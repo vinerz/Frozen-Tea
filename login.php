@@ -30,7 +30,7 @@
     </head>
     <body>
         <div style="text-align:center;margin-top:15px">
-            <h1>Login Test</h1>
+            <h1>Login Test V2</h1>
         </div>
         <div class='beautyPane'>
             <form id="login" action="./doLogin.php" method="POST">
