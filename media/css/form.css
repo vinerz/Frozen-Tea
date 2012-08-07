@@ -1,0 +1,234 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,.beautyPane,fieldset,input,textarea,p,blockquote,th,td{ margin:0; padding:0;}
+table{ border-collapse:collapse; border-spacing:0;}
+fieldset,img{ border:0;}
+address,caption,cite,code,dfn,th,var{ font-style:normal; font-weight:normal;}
+ol,ul{ list-style:none;}
+caption,th{ text-align:left;}
+h1,h2,h3,h4,h5,h6{ font-size:100%; font-weight:normal;}
+q:before,q:after{ content:'';}
+abbr,acronym{ border:0;}
+
+html {
+	overflow:-moz-scrollbars-vertical;
+}
+body{
+	background:#eee;
+	color:#333;
+	font-family: 'PT Sans', Arial, sans-serif;
+	font-size:15px;
+	line-height:16px;
+	text-shadow:0 0px 0 #555;
+}
+a{
+	color:#333;
+	text-decoration:underline;
+}
+.beautyPane{
+	background: url(../images/bg-public.png);
+	border:1px solid #B28F00;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	-moz-box-shadow:0 0 5px #aaa;
+	-webkit-box-shadow:0 0 5px #aaa;
+	margin:15px auto 0;
+	padding:20px;
+	width:440px;
+}
+h1{
+	border-bottom:1px solid #CC0000;
+	font-size:17px;
+	font-weight:bold;
+	letter-spacing:2px;
+	margin-bottom:20px;
+	text-transform:uppercase;
+	padding: 2px;
+}
+.beautyPane p{
+	margin-bottom:20px;
+}
+.beautyPane p:last-child{
+	margin-bottom:0;
+}
+label{
+	cursor:pointer;
+	display:block;
+	float:left;
+	font-size:13px;
+	font-weight:normal;
+	line-height:28px;
+	margin-bottom:5px;
+	width:120px;
+}
+.beautyPane p:hover label{
+	color:#AF0000;
+}
+.beautyPane p:hover label:after{
+	content: ' \00bb';
+}
+input[type=text],
+input[type=password]{
+	background: rgba(255, 255, 255, 0.9);
+	background:-moz-linear-gradient(90deg, #fff, #eee); /* Firefox */
+	background:-webkit-gradient(linear, left top, left bottom, from(#eee), to(#fff), color-stop(0.2, #fff)); /* Webkit */
+	border:1px solid #aaa;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-box-shadow:0 0 3px #aaa;
+	-webkit-box-shadow:0 0 3px #aaa;
+	width: 260px;
+	padding:5px;
+}
+input[type=text]:focus,
+input[type=password]:focus{
+	border-color:#CC0000;
+	-moz-box-shadow:0 0 3px #CC0000;
+	-webkit-box-shadow:0 0 3px #CC0000;
+	outline:none;
+}
+select{
+	cursor:pointer;
+	padding:3px;
+	-moz-box-shadow:0 0 3px #aaa;
+	-webkit-box-shadow:0 0 3px #aaa;
+}
+select:active,
+select:focus{
+	border:1px solid #093c75;
+	-moz-box-shadow:0 0 3px #0459b7;
+	-webkit-box-shadow:0 0 3px #0459b7;
+	outline:none;
+}
+input[type=submit],
+a.submit{
+	background: url(../images/bg-btn.png);
+	border:1px solid #A30000;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-box-shadow:0 1px 0 #fff;
+	-webkit-box-shadow:0 1px 0 #fff;
+	color:#fff;
+	cursor:pointer;
+	font-family:Arial,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	margin-left:120px;
+	padding:5px 10px;
+	text-decoration:none;
+	text-shadow:0 1px 1px #333;
+	text-trans.beautyPane:uppercase;
+}
+input[type=submit]:hover,
+a.submit:hover{
+	background: url(../images/bg-btn-hover.png);
+	border-color:#CC2929;
+	text-decoration:none;
+}
+input[type=submit]:active,
+input[type=submit]:focus,
+a.submit:active,
+a.submit:focus{
+	background: url(../images/bg-btn.png);
+	outline:none;
+}
+
+#footer {
+    text-align: center;
+}
+
+.navPane {
+    height: 50px;
+    margin-top: -20px;
+    margin-left: -20px;
+    padding: 0;
+    border-radius: 7px 5px 0 0;
+    background: url(../images/bg-btn.png);
+    width: 790px;
+}
+
+.navPane ul {
+    margin-left: 10px;
+}
+
+.navPane li {
+    float: left;
+    line-height: 50px;
+}
+
+.navPane a {
+    padding: 5px;
+    text-decoration: none;
+    background: url(../images/bg-btn.png);
+    color: white;
+    font-size: 16px;
+    border-right: 1px solid red;
+}
+.navPane a:hover {
+    background: url(../images/bg-btn-hover.png);
+}
+
+
+.large {
+    width: 750px;
+}
+
+.large input[type="text"], .large input[type="password"] {
+    width: 296px;
+}
+
+.large label {
+    width: 170px;
+}
+
+.large .submit {
+    margin-left: 170px;
+}
+
+.selectorBox {
+    float:left;
+    padding: 7px;
+    margin-left: 65px;
+    margin-bottom: 15px;
+    border: 1px solid #A0A0A0;
+    background: #EFEFEF;
+    border-radius: 7px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.selectorBox:hover {
+    background: #E9E9E9;
+}
+
+.selectorBox .imgCover {
+    overflow: hidden;
+    width: 255px;
+    height: 105px;
+}
+
+.selectorBox .imgCover img {
+    width: 255px;
+}
+
+.selectorBox h3 {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin: 3px;
+}
+
+.itemRow {
+    height: 30px;
+    padding: 4px;
+    font-size:15px;
+    line-height: 29px;
+    cursor: default;
+    background: white;
+}
+
+.itemsTitle {
+    background: url(../images/bg-btn.png);
+    color: white;
+    padding: 4px;
+    height: 25px;
+    line-height: 25px;
+}
